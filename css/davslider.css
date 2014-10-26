@@ -1,0 +1,38 @@
+
+
+ul.dav-slider-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.dav-slider-container li img {
+    display:none;
+}
+
+ul.dav-slider-container li img.active {
+    display:block;
+}
+
+.dav-slider-mask {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.davslider-slicer {
+    background: none repeat scroll 0 0 #AAAAAA;
+    position: absolute;
+}
+.dav-slider-nav {
+    background: none repeat scroll 0 0 #000000;
+    cursor: pointer;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    width: 32px;
+    z-index: 1000;
+}
+.dav-slider-prev{left:0;}
+.dav-slider-next{right:0;}
